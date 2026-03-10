@@ -8,7 +8,7 @@ from .mandelbrot import draw_mandelbrot
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate a Mandelbrot set image."
+        description="Generate a Mandelbrot set Image."
     )
     parser.add_argument(
         "-o", "--output", default="mandelbrot.png",
